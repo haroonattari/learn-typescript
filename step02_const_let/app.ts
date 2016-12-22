@@ -2,9 +2,10 @@
 const a = 5;
 const b : number = 33;
 const c ="best";
+let condition: boolean = true;
 
 //I suggest use let instead of var everywhere, becuase let has blocked scope
-if (true) {
+if (condition) {
 	let z = 4;
 	//use z
 }
